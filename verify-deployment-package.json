@@ -1,0 +1,12 @@
+{
+  "name": "natalify-deployment-check",
+  "version": "1.0.0",
+  "description": "Verification script for Natalify deployment",
+  "main": "verify-deployment.js",
+  "scripts": {
+    "verify": "node verify-deployment.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

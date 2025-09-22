@@ -1,0 +1,13 @@
+{
+  "name": "deploy-netlify",
+  "version": "1.0.0",
+  "description": "Deployment helper script for Netlify",
+  "scripts": {
+    "build": "cd ../natalify-frontend && npm run build",
+    "deploy": "netlify deploy --prod",
+    "deploy-dry": "netlify deploy"
+  },
+  "dependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
